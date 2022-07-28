@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spinner_resource">
+        <item>spinner item 1</item>
+        <item>spinner item 2</item>
+        <item>spinner item 3</item>
+        <item>spinner item 4</item>
+        <item>spinner item 5</item>
+        <item>spinner item 6</item>
+        <item>spinner item 7</item>
+        <item>spinner item 8</item>
+        <item>spinner item 9</item>
+        <item>spinner item 10</item>
+        <item>spinner item 11</item>
+        <item>spinner item 12</item>
+        <item>spinner item 13</item>
+        <item>spinner item 14</item>
+        <item>spinner item 15</item>
+        <item>spinner item 16</item>
+        <item>spinner item 17</item>
+        <item>spinner item 18</item>
+        <item>spinner item 19</item>
+        <item>spinner item 20</item>
+        <item>spinner item 21</item>
+        <item>spinner item 22</item>
+    </array>
+</resources>

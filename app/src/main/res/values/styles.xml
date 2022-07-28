@@ -1,0 +1,115 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="appBarLayoutStyle">@style/Widget.MaterialComponents.AppBarLayout.Primary</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.Primary</item>
+        <!--        <item name="materialButtonStyle">@style/App.Button</item>-->
+        <!--        <item name="elevationOverlayColor">@android:color/holo_red_dark</item>-->
+        <!--        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MaterialComponents.SmallComponent.App</item>-->
+        <!--        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MaterialComponents.MediumComponent.App</item>-->
+        <!--        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MaterialComponents.LargeComponent.App</item>-->
+    </style>
+
+    <style name="TextAppearance.Caption.Bold" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">900</item>
+        <item name="android:fontStyle">italic</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.Button.OutlinedButton.App" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:background">@null</item>
+        <item name="rippleColor">@android:color/transparent</item>
+        <item name="strokeColor">@color/color_button_bg</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.TextInputLayout.FilledBox.App" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputLayout</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Caption.Bold</item>
+    </style>
+
+    <style name="ThemeOverlay.App.TextInputLayout" parent="">
+        <item name="textAppearanceCaption">@style/TextAppearance.Caption.Bold</item>
+        <!--        <item name="textAppearanceSubtitle1">@style/TextAppearance.App.Subtitle1</item>-->
+        <item name="editTextStyle">@style/Widget.MaterialComponents.TextInputEditText.FilledBox.App
+        </item>
+    </style>
+
+    <style name="TextAppearance.App.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textStyle">bold</item>
+        <!--        <item name="fontWeight">600</item>-->
+        <!--        <item name="android:fontWeight">600</item>-->
+    </style>
+
+    <style name="TextAppearance.App.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textStyle">bold</item>
+        <!--        <item name="fontWeight">600</item>-->
+        <!--        <item name="android:fontWeight">600</item>-->
+    </style>
+
+    <style name="Widget.MaterialComponents.TextInputEditText.FilledBox.App" parent="Widget.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ShapeAppearance.MaterialComponents.SmallComponent.App" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MaterialComponents.MediumComponent.App" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MaterialComponents.LargeComponent.App" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+    </style>
+
+    <style name="InputLayoutStyleBold" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">
+            @style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox.Bold
+        </item>
+
+    </style>
+
+    <style name="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox.Bold">
+        <item name="editTextStyle">
+            @style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Bold
+        </item>
+        <!--        <item name="textAppearanceCaption">@style/TextAppearance.Caption.Bold</item>-->
+        <item name="hintTextAppearance">?attr/textAppearanceHeadline1</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.TextInputEditText.OutlinedBox.Bold" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="hintTextAppearance">?attr/textAppearanceHeadline1</item>
+    </style>
+
+    <!-- button样式 -->
+    <style name="App.Button" parent="Widget.MaterialComponents.Button">
+        <!-- 背景色 -->
+        <!--        <item name="backgroundTint">@color/color_button_bg</item>-->
+        <!-- 高度 -->
+        <!--        <item name="android:minHeight">56dp</item>-->
+        <!-- 形状 -->
+        <!--        <item name="shapeAppearance">@style/App.Shape.Button</item>-->
+        <!-- 文字大小 -->
+        <!--        <item name="android:textAppearance">@style/App.TextAppearance.Button</item>-->
+        <!--        <item name="elevation">10dp</item>-->
+        <!--        <item name="android:elevation">10dp</item>-->
+        <item name="android:stateListAnimator">@animator/btn_state_list_anim</item>
+    </style>
+
+    <!-- button上的文字样式定义 -->
+    <style name="App.TextAppearance.Button" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- button形状定义 -->
+    <style name="App.Shape.Button" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">8dp</item>
+    </style>
+</resources>

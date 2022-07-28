@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">themeMaterial</string>
+
+    <string name="title_typography">themeMaterial Typography</string>
+
+    <string name="search">检索</string>
+    <string name="more">更多</string>
+
+    <string name="dialog_title"> This is title</string>
+    <string name="dialog_msg"> This is message</string>
+    <string name="dialog_OK">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <array name="spinner_entries">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </array>
+</resources>
